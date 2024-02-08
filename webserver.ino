@@ -1,7 +1,6 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
 #include "DHT.h"
-
 #define DHTTYPE DHT11  
 
 const char* ssid = "******";  
