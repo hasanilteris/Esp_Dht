@@ -1,7 +1,6 @@
 #define BLYNK_PRINT Serial
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
-
 #include <dht11.h>
 #define DHT11PIN 4 
 dht11 DHT11;
