@@ -10,7 +10,6 @@ char auth[33] = "Blynk_Auth_Token";
 char ssid[33] = "WiFi_Ismi";
 char pass[33] = "WiFi_Sifresi";
 
-
 void setup() {
   Serial.begin(9600);
   Blynk.begin(auth, ssid, pass);
