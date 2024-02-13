@@ -7,6 +7,7 @@
 const char *ssid = "modemadi";
 const char *password = "sifresi";
 
+
 WebServer server(80);
 DHT dht(26, DHT11);
 
