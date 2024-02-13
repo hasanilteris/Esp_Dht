@@ -3,7 +3,6 @@
 #include "DHT.h"
 #define DHTTYPE DHT11  
 
-
 const char* ssid = "******";  
 const char* password = "******";  
 
