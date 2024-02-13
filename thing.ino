@@ -3,6 +3,7 @@
 String agAdi = "modem";                
 String agSifresi = "sifre";          
 
+
 int rxPin = 10;                                           
 int txPin = 11;                                         
 int dht11Pin = 2;
