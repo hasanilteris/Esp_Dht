@@ -4,7 +4,6 @@
 #include <ESPmDNS.h>
 #include <DHT.h>
 
-
 const char *ssid = "modemadi";
 const char *password = "sifresi";
 
