@@ -6,7 +6,6 @@
 const char* ssid = "******";  
 const char* password = "******";  
 
-
 ESP8266WebServer server(80); 
 
 uint8_t DHTPin = D4;
