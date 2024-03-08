@@ -24,6 +24,7 @@ void handleRoot() {
     <style>\
     html { font-family: Arial; display: inline-block; margin: 0px auto; text-align: center;}\
     h2 { font-size: 3.0rem; }\
+    
     p { font-size: 3.0rem; }\
     .units { font-size: 1.2rem; }\
     .dht-labels{ font-size: 1.5rem; vertical-align:middle; padding-bottom: 15px;}\
@@ -41,6 +42,7 @@ void handleRoot() {
         <i class='fas fa-tint' style='color:#00add6;'></i>\
         <span class='dht-labels'>Humidity</span>\
         <span>%.2f</span>\
+    
         <sup class='units'>&percnt;</sup>\
       </p>\
   </body>\
