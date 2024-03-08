@@ -27,11 +27,10 @@ BLYNK_READ(V0) {
   
   Blynk.virtualWrite(V0, sicaklik);
 }
-
 BLYNK_READ(V1) {
   DHT11.read(DHT11PIN);
   nem = DHT11.humidity;
-  Serial.println("Nem: " + String(nem));
+  Serial.println("Nem: "  + String(nem));
   
   Blynk.virtualWrite(V1, nem);
 }
