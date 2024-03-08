@@ -54,6 +54,8 @@ void loop() {
   esp.print("AT+CIPSEND=");                                  
   esp.println(veri.length()+2);
   delay(2000);
+
+  
   if(esp.find(">")){                                          
     esp.print(veri);                                         
     Serial.println(veri);
