@@ -5,6 +5,7 @@
 #define DHT11PIN 4
 
 dht11 DHT11;
+
 int sicaklik, nem;
 
 char auth[33] = "Blynk_Auth_Token";
