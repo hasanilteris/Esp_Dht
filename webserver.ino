@@ -8,7 +8,6 @@ const char* password = "******";
 
 ESP8266WebServer server(80);  
 
-
 uint8_t DHTPin = D4;
 uint8_t LED1pin = D2;
 bool LED1status = LOW;
