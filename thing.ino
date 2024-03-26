@@ -8,7 +8,6 @@ int txPin = 11;
 int dht11Pin = 2;
 
 
-
 String ip = "184.106.153.149";                
 float sicaklik, nem;
 dht11 DHT11;
