@@ -8,7 +8,6 @@ dht11 DHT11;
 int sicaklik, nem;
 
 
-
 char auth[33] = "Blynk_Auth_Token";
 char ssid[33] = "WiFi_Ismi";
 char pass[33] = "WiFi_Sifresi";
