@@ -12,7 +12,6 @@ uint8_t LED1pin = D2;
 bool LED1status = LOW;
 uint8_t LED2pin = D3;
 bool LED2status = LOW;
-               
 
 DHT dht(DHTPin, DHTTYPE);                
 
